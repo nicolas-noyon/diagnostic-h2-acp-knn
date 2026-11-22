@@ -9,15 +9,16 @@ extraction d'indicateurs, réduction de dimension, puis classification de l'éta
 ## Contenu
 | Fichier | Description |
 |---|---|
-| `Session_2_indicateurs.ipynb` | Indicateurs statistiques sur `Fichier_Signal_Brut.mat` : écart-type (SD), RMS, facteur de crête (CF), skewness (SK), kurtosis (KU), facteur de forme (SF) |
-| `Session_5_ACP_KNN.ipynb` | Réduction de dimension par **ACP** puis classification **KNN** |
+| [`Session_4_KNN.ipynb`](Session_4_KNN.ipynb) | Classer des états de fonctionnement : extraction des critères statistiques (RMS, facteur de crête, kurtosis…), apprentissage **KNN**, matrices de confusion et taux par classe |
+| [`Session_7_ondelettes_ACP_KNN.ipynb`](Session_7_ondelettes_ACP_KNN.ipynb) | Chaîne complète : décomposition en **ondelettes** (PyWavelets), réduction de dimension par **ACP**, classification **KNN** |
+| [`rapport_Session_7.pdf`](rapport_Session_7.pdf) | Rapport de la session 7 |
 
 ## Outils
-Python · NumPy · SciPy (lecture des fichiers `.mat`) · scikit-learn · Matplotlib · Google Colab
+Python · NumPy · pandas · SciPy · PyWavelets · scikit-learn · Matplotlib · Google Colab
 
 ## Lancer
 ```bash
-pip install numpy scipy scikit-learn matplotlib jupyter
+pip install numpy pandas scipy PyWavelets scikit-learn matplotlib jupyter
 jupyter notebook
 ```
 Les données de signaux fournies en cours ne sont pas publiées.
