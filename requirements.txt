@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+PyWavelets
+scikit-learn
+matplotlib
+jupyter
